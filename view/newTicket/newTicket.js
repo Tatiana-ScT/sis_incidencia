@@ -3,7 +3,7 @@ $(document).ready(function() {
         height: 200,
     });
 
-    $_post("../../controller/oficina.php?op=combo",function(data,status){
+    $.post("../../controller/oficina.php?op=combo",function(data,status){
         console.log(data);
     });
 });

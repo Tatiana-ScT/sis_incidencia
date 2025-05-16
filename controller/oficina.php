@@ -3,7 +3,7 @@
     require_once("../models/Oficina.php");
     $oficina = new Oficina();
 
-    switch($_GET{"op"}){
+    switch($_GET["op"]){
         case "combo":
             $datos = $oficina->get_oficina();
             if(is_array($datos)==true and count($datos)>0){
