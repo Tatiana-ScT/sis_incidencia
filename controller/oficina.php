@@ -7,10 +7,10 @@
         case "combo":
             $datos = $oficina->get_oficina();
             if(is_array($datos)==true and count($datos)>0){
-                $html= "<option></option>";
+                //$html= "<option></option>";
                 foreach($datos as $row)
                 {
-                    $hmtl= "<option value='".$row['ofi_id']."'>".$row['ofi_nombre']."</option>";
+                    $html.= "<option value='".$row['ofi_id']."'>".$row['ofi_nombre']."</option>";
                 }
                 echo $html;
             }
