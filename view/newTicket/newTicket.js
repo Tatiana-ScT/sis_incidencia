@@ -23,8 +23,10 @@ function guardaryeditar(e){
         data: formData,
         contentType: false,
         processData: false,
-        sucess: function(datos){
-            console.log(datos);
+        success: function(datos){
+            $('#ticket_descrip').val(''); 
+            $('#tick_titulo').summernote('reset'); 
+            swal("Correcto","Registrado Correctamente","success");
         } 
     })
 }

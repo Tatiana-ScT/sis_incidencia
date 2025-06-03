@@ -61,9 +61,9 @@
 							</div>
 							<div class="col-lg-12">
 								<fieldset class="form-group">
-									<label class="form-label semibold" for="tick_descrip">Descripción</label>
+									<label class="form-label semibold" for="ticket_descrip">Descripción</label>
 									<div class="summernote-theme-1">
-										<textarea id="ticket_descrip" name="tick_descrip" class="summernote" name="name"></textarea>
+										<textarea id="ticket_descrip" name="ticket_descrip" class="summernote" name="name"></textarea>
 									</div>
 								</fieldset>
 							</div>
