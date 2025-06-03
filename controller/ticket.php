@@ -5,7 +5,7 @@
 
     switch($_GET["op"]){
         case "insert":
-            $ticket = insert_ticket($_POST["id_usuario"], $_POST["ofi_id"], $_POST["tick_titulo"], $_POST["tick_descrip"]);    
+            $ticket->insert_ticket($_POST["id_usuario"], $_POST["ofi_id"], $_POST["tick_titulo"], $_POST["ticket_descrip"]);    
         break;
     }
 ?>
