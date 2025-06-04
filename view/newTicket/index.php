@@ -4,8 +4,12 @@
 ?>
 <!DOCTYPE html>
 <html>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<?php require_once("../mainHead/head.php");?>
 	<title>Nuevo Ticket</title>
+    <!-- Scripts jQuery, Bootstrap, Summernote y CSS de Summernote se cargan desde mainHead/head.php y mainJs/js.php -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body class="with-side-menu">
 
@@ -78,7 +82,7 @@
 	<!-- Contenido -->
 
 	<?php require_once("../mainJs/js.php");?>
-	
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 	<script type="text/javascript" src="newTicket.js"></script>
 </body>
 </html>
