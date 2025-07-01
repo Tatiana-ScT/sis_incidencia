@@ -93,6 +93,7 @@
     <script src="public/js/lib/bootstrap/bootstrap.min.js"></script>
     <script src="public/js/plugins.js"></script>
     <script src="public/js/app.js"></script>
+    <script src="public/js/lib/summernote/summernote.min.js"></script>
     <script type="text/javascript" src="js/lib/match-height/jquery.matchHeight.min.js"></script>
     <script>
         $(function() {

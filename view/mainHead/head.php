@@ -15,7 +15,10 @@
 <link rel="stylesheet" href="../../public/css/lib/font-awesome/font-awesome.min.css">
 <link rel="stylesheet" href="../../public/css/lib/bootstrap/bootstrap.min.css">
 
-<script src="../../public/js/lib/bootstrap-sweetalert/sweetalert.min.js"></script>
-<script src="../../public/js/lib/summernote/summernote.min.js"></script>
+<link rel="stylesheet" href="../../public/js/lib/bootstrap-sweetalert/sweetalert.min.js">
+<link rel="stylesheet" href="../../public/js/lib/summernote/summernote.min.js">
+
+<link rel="stylesheet" href="../../public/css/lib/datatables-net/datatables.min.css">
+<link rel="stylesheet" href="../../public/css/separate/vendor/datatables-net.min.css">
 
 <link rel="stylesheet" href="../../public/css/main.css">

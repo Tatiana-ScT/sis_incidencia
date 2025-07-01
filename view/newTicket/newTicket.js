@@ -24,13 +24,14 @@ function guardaryeditar(e){
         contentType: false,
         processData: false,
         success: function(datos){
-            $('#tick_titulo').val('');
-            $('#ticket_descrip').summernote('reset');
+
+            $('#tick_titulo').val(''); 
+            $('#ticket_descrip').summernote('reset'); 
             swal.fire({
                 title: 'Correcto',
-                text: 'Registrado Correctamente',
-                icon: 'success'
-            }); 
+                text: "Registrado Correctamente",
+                icon: "success"});
+
         } 
     })
 }
