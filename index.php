@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="public/css/lib/font-awesome/font-awesome.min.css">
     <link rel="stylesheet" href="public/css/lib/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="public/css/main.css">
+    <link rel="stylesheet" href="public/css/lib/summernote/summernote.css">
     
 </head>
 <body>
@@ -92,6 +93,7 @@
     <script src="public/js/lib/bootstrap/bootstrap.min.js"></script>
     <script src="public/js/plugins.js"></script>
     <script src="public/js/app.js"></script>
+    <script src="public/js/lib/summernote/summernote.min.js"></script>
     <script type="text/javascript" src="js/lib/match-height/jquery.matchHeight.min.js"></script>
     <script>
         $(function() {

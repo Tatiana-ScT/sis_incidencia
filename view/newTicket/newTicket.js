@@ -24,9 +24,12 @@ function guardaryeditar(e){
         contentType: false,
         processData: false,
         success: function(datos){
-            $('#ticket_descrip').val(''); 
-            $('#tick_titulo').summernote('reset'); 
-            swal("Correcto","Registrado Correctamente","success");
+            $('#tick_titulo').val(''); 
+            $('#ticket_descrip').summernote('reset'); 
+            swal.fire({
+                title: 'Correcto',
+                text: "Registrado Correctamente",
+                icon: "success"});
         } 
     })
 }
